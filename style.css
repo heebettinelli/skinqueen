@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+header {
+    background-color:#D60751 ;
+    width: 1420px;
+    height: 300px;
+    
+    
+}
+
+.logo {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    position:relative;
+    display:flex;
+}
+
+.img {
+    text-align: center;
+
+}
+
+#homepage {
+    text-align: left;
+
+    
+
+}
+
+#equipe {
+    text-align:left;
+    
+
+}
+
+#corporais {
+    text-align: center ;
+
+}
+
+#faciais {
+    text-align: right ;
+
+}
+
+#contatos{ 
+    text-align: right ;
+
+}
