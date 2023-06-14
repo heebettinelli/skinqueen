@@ -23,7 +23,7 @@ header {
     align-items:flex-end;
     justify-content: space-around;
     background-color:var(--cor1);
-    padding: 1px;
+    padding: 0px;
     margin: 0px;   
     height: 250px;
     
@@ -35,7 +35,8 @@ picture.logo {
     width: 100px;
     height: 300px;
     display:flex;
-    margin: 0px;  
+    margin: auto;
+
 }
 
 nav.menu {
@@ -43,7 +44,7 @@ nav.menu {
     
 }
 
-header > picture {
+.landing-img {
     width: 100vw;
 
 }
