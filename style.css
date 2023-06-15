@@ -20,51 +20,27 @@
 
 header {
     display: flex;
-    align-items:flex-end;
-    justify-content: space-around;
+    flex-direction: column;
     background-color:var(--cor1);
     padding: 0px;
     margin: 0px;   
-    height: 250px;
-    
+    height: 250px;   
 }
 
-picture.logo {
-    position:absolute;
-    left: 40%;
-    width: 100px;
+.logo {
+    width: 200px;
     height: 300px;
-    display:flex;
     margin: auto;
-
 }
 
-nav.menu {
+.menu {
+    display: flex;
+    justify-content: center;
     height: 40px;
     
 }
 
-.landing-img {
-    width: 100vw;
-
-}
-
-main{
-    margin: 50px;
-}
-h1{
-    font: var(--font-principal);
-    font-size: 40px;
-    padding: 40px 40px;
-
-}
-body {
-    color: var(--cor2);
-    margin: 0px;
-    background-color: var(--cor1);
-}
-
-nav > a {
+.menu > a {
     margin: 0px 40px 0px 40px;
     position: relative;
     color: var(--cor2);
@@ -76,23 +52,52 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-article {
+.landing-img {
+    width: 100vw;
+
+}
+
+body {
+    color: var(--cor2);
+    margin: 0px;
+    background-color: var(--cor1);
+}
+
+.principal {
+    margin: 20px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo {
     text-align: justify;
     padding: 50px 350px;
    
 }
-
-article > h1{
+.titulo{
     text-align: center;
+    font: var(--font-principal);
+    font-size: 40px;
+    padding: 40px 40px;
     
 }
-article > h3{
-    margin: 40px;
+
+.cta{
+    margin: 40px 0px 5px 0px;
     text-align: center;
 }
-article > h4 {
-    text-align: center;
-    font-weight: lighter;
+.button {
+    background-color: var(--cor2);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;   
+    text-align: center; 
+    width: 250px;
 }
 
 footer {
@@ -100,25 +105,24 @@ footer {
     align-items:flex-end;
     justify-content: space-around;
     text-align: center;
-    background-color:var(--cor2);
-    
+    background-color:var(--cor2);   
 }
 
-footer > div{
+.morada {
     background-color: var(--cor2);
     color: var(--cor1);
     columns: 2;
-    margin-bottom: 2px;
+    margin: 10px 0px;
 }
 
-footer > nav > a{
+.redes-sociais > a {
     position: relative;
     display: flexbox;
-
+    padding: 0px 30px;
 }
 
 .social{
     width: 30px;
     height: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
