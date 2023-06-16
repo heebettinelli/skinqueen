@@ -5,57 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contatos</title>
-    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css"/>
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      Menu
-      <picture class="logo">
-        <img src="logoskinqueen/logo400px.png" alt="logoskinqueen"/>
-      </picture>
-      <ul>
-        <li><a href="homepage.html">Página inicial</a></li>
-        <li><a href="equipe.html">Equipe</a></li>
-        <li><a href="tratamentoscorporais.html">Tratamentos Corporais</a></li>
-        <li><a href="tratamentosfaciais.html">Tratamentos Faciais</a></li>
-        <li><a href="contatos.html">Contatos</a></li>
-      </ul>
-      <h4>Centro de estética corporal e facial</h4>
+      <img class="logo" src="logoskinqueen/logo400px.png" alt="logoskinqueen" />
+      <nav class="menu">
+        <a href="homepage.html">Página Inicial</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="tratamentoscorporais.html">Tratamentos Corporais</a>
+        <a href="tratamentosfaciais.html">Tratamentos Faciais</a>
+        <a href="contatos.html">Contatos</a>
+      </nav>
     </header>
-    <main>
-      <!--main é a teg de conteudo principal-->
+    <img class="landing-img" src="hpn1440.jpeg" alt="Imagem cabeçalho" />
+    <main class="contatos">
       <img src="" alt="" />
-      <h1>Nossos Contatos</h1>
-      <p>Nome</p>
-      <p>E-mail</p>
-      <p>Telefone</p>
-      <p>Assunto</p>
+      <h1 class="titulo">Nossos Contatos</h1>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" />
+        <br />
+        <br />
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="Telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" />
+        <br />
+        <br />
+        <label for="Assunto">Assunto:</label>
+        <input type="text" name="assunto" id="assunto" />
+        <br />
+        <br />
+        <button class="buttonp">Enviar</button>
+      </form>
+      </iframe>
     </main>
     <footer>
-      <p>Morada: Rua do Salgueiro Lutador, 2305-387, Hogwarts</p>
-      <p>Telefone: 987 547 621</p>
-      <p>Política de Privacidade</p>
-      <p>All rigths Reserved</p>
-      <p>&reg;Copyrigth - 2020</p>
-      <a href="https://www.instagram.com/heeferreira/" target="_blank">
-        <img src="instagram-1464521-1239436.png" alt="icone instagram" />
-      </a>
-      <a href="https://www.facebook.com/helen.souzaferreira" target="_blank">
-        <img src="faceboologo.webp" alt="Logo Facebook" />
-      </a>
-      <a href="https://www.whatsapp.com" target="_blank">
-        <img src="logowpp.png" alt="Logo Whatsapp" />
-      </a>
-      <a href="https://www.google.com/intl/pt-PT/gmail/about/" target="_blank">
-        <img src="icongmail.webp" alt="Logo Gmail" />
-      </a>
-      <a href="https://www.pinterest.pt" target="_blank">
-        <img src="pinteresticon.png" alt="Logo Pinterest" />
-      </a>
-      <a href="https://twitter.com/home" target="_blank">
-        <img src="twettericon.png" alt="Logo Twitter" />
-      </a>
+      <div class="morada">
+        Morada: Rua do Salgueiro Lutador, 107 <br />
+        2305-389 - Hogwarts <br />
+        Telefone: 987 547 621 <br />
+        Política de Privacidade <br />
+        All rigths Reserved <br />
+        &reg;Copyrigth - 2020
+      </div>
+
+      <nav class="redes-sociais">
+        <a href="https://www.instagram.com" target="_blank">
+          <img
+            src="insta icon branco.png"
+            alt="Logo instagram"
+            class="social"
+          />
+        </a>
+        <a href="https://www.facebook.com/helen.souzaferreira" target="_blank">
+          <img src="face incon branco.png" alt="Logo Facebook" class="social" />
+        </a>
+        <a href="https://www.whatsapp.com" target="_blank">
+          <img src="wpp icon branco.png" alt="Logo Whatsapp" class="social" />
+        </a>
+        <a
+          href="https://www.google.com/intl/pt-PT/gmail/about/"
+          target="_blank"
+        >
+          <img src="mail icon branco.png" alt="Logo Gmail" class="social" />
+        </a>
+        <a href="https://twitter.com/home" target="_blank">
+          <img
+            src="twitter icon branco.png"
+            alt="Logo Twitter"
+            class="social"
+          />
+        </a>
+      </nav>
     </footer>
   </body>
 </html>

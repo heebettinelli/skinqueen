@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
 
 :root{
     --cor1: #f4f4f4;
@@ -9,7 +10,7 @@
 
     --font-principal: 'Playfair Display', serif;
     --font-secundaria: arial, helvetica, sans-serif;
-    --font-destaque: 'Great Vibes';
+    --font-destaque: 'Great Vibes', cursive;
 }
 
 * {
@@ -48,7 +49,7 @@ header {
     text-decoration: none;
 }
 
-nav > a:hover {
+.menu > a:hover {
     text-decoration: underline;
 }
 
@@ -71,11 +72,32 @@ body {
     align-items: center;
 }
 
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-width: 30px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 30px 30px 20px;
+
+
+}
 
 .conteudo {
     text-align: justify;
-    padding: 50px 350px;
+    padding: 50px 300px;
    
+}
+
+.servico{
+    text-align: justify;
+    padding: 50px 300px;
+    
+    
+
 }
 .titulo{
     text-align: center;
@@ -85,6 +107,24 @@ body {
     
 }
 
+.subtitulo{
+    text-align: center;
+    font-family: var(--font-destaque);
+    font-size: 28px;
+}
+
+.equipe{
+    display: block;
+    height: 100px;
+    width: 800px;
+}
+
+.tratamentos{
+    display: block;
+    height: 100px;
+    width: 100%;
+
+}
 .cta{
     margin: 40px 0px 5px 0px;
     text-align: center;
@@ -98,6 +138,18 @@ body {
     padding: 10px;   
     text-align: center; 
     width: 250px;
+}
+
+.buttonp{
+    background-color: var(--cor2);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    padding: 10px;   
+    text-align: center; 
+    width: 100px;
+
 }
 
 footer {
