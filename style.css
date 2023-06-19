@@ -76,14 +76,8 @@ body {
 .contatos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: var(--cor1);
-    min-width: 30px;
-    max-width: 1300px;
-    margin: auto;
     padding: 0px 30px 30px 20px;
-    
 }
 
 .conteudo {
@@ -162,7 +156,7 @@ body {
     color: white;
     border-radius: 8px;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;   
     text-align: center; 
     width: 100px;
