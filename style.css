@@ -38,6 +38,7 @@ header {
     display: flex;
     justify-content: center;
     height: 40px;
+    font-size: 18px;
     
 }
 
@@ -77,18 +78,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--cor1);
     min-width: 30px;
     max-width: 1300px;
     margin: auto;
     padding: 0px 30px 30px 20px;
-
-
+    
 }
 
 .conteudo {
     text-align: justify;
-    padding: 50px 600px;
+    padding: 20px 600px;
    
 }
 
@@ -99,18 +99,21 @@ body {
 }
 .rigth{
     margin-left: 30%;
+    margin-right: -5%;
     text-align: justify;
     padding: 50px 300px;
     display: block;
+    
 }
 
 .left{
-    margin-right: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: justify;
     padding: 50px 300px;
     display: block;
-
 }
+
 .titulo{
     text-align: center;
     font: var(--font-principal);
@@ -123,6 +126,7 @@ body {
     text-align: center;
     font-family: var(--font-destaque);
     font-size: 28px;
+    padding: 15px;
 }
 
 .equipe{
@@ -138,8 +142,9 @@ body {
 
 }
 .cta{
-    margin: 40px 0px 5px 0px;
+    margin: 40px 0px px 0px;
     text-align: center;
+    padding: 20px;
 }
 .button {
     background-color: var(--cor2);
@@ -147,7 +152,7 @@ body {
     border-radius: 10px;
     border: none;
     font-size: 18px;
-    padding: 10px;   
+    padding: 5px;   
     text-align: center; 
     width: 250px;
 }
@@ -170,6 +175,7 @@ footer {
     justify-content: space-around;
     text-align: center;
     background-color:var(--cor2);   
+    font-size: 14px;
 }
 
 .morada {
@@ -196,7 +202,7 @@ footer {
     width: 250px;
     height: 200px;
     margin-left: -270px;
-    margin-bottom: -140px;
+    margin-bottom: -150px;
     border-radius: 5%;
 
 }
@@ -207,6 +213,6 @@ footer {
     height: 200px;
     border-radius: 50%;
     margin-left: -270px;
-    margin-bottom: -140px;
+    margin-bottom: -170px;
 
 }
