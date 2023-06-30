@@ -157,10 +157,12 @@ body {
     border-radius: 8px;
     border: none;
     font-size: 16px;
-    padding: 10px;   
+    padding: 5px;   
     text-align: center; 
     width: 100px;
-
+    float: right;
+    
+    
 }
 
 footer {
@@ -208,5 +210,27 @@ footer {
     border-radius: 50%;
     margin-left: -270px;
     margin-bottom: -170px;
+
+}
+
+
+
+.area{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 650px;
+    height: 500px;
+    position: relative;
+}
+.label{
+    width: 50%;
+    align-items: left;
+    padding-left: 5px;
+}
+
+.input{
+    width: 50%;
+    text-align: left;
+    padding-left: 5px;
 
 }
