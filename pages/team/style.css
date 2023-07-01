@@ -1,0 +1,23 @@
+
+.item-content{
+    max-width: 950px;
+    display: flex;
+    margin-bottom: 80px;
+
+
+
+}
+@media screen and (max-width: 740px) {
+    .item-content{
+        display: block;
+       text-align: center;
+    }
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}

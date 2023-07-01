@@ -36,18 +36,21 @@ header {
 
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 40px;
     font-size: 18px;
+    
+
     
 }
 
 .menu > a {
-    margin: 0px 40px 0px 40px;
+    margin: 0px 20px 0px 20px;
     position: relative;
     color: var(--cor2);
     align-items: right;
     text-decoration: none;
+    
 }
 
 .menu > a:hover {
@@ -82,29 +85,45 @@ body {
 
 .conteudo {
     text-align: justify;
-    padding: 20px 600px;
+    max-width: 840px;
    
+}
+
+.item-content{
+    max-width: 950px;
+    display: flex;
+    margin-bottom: 80px;
+
+
+
+}
+@media screen and (max-width: 740px) {
+    .item-content{
+        display: block;
+       text-align: center;
+    }
 }
 
 .servico{
     text-align: justify;
     padding: 50px 300px;
     display: block;
+    
 }
 .rigth{
-    margin-left: 30%;
-    margin-right: -5%;
-    text-align: justify;
-    padding: 50px 300px;
-    display: block;
+    max-width: 60%;
+    display: flex;
+    margin-left: auto;
     
 }
 
 .left{
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: justify;
-    padding: 50px 300px;
+    display: flex;
+    max-width: 60%;
+    margin-right: auto;
+}
+
+.text{
     display: block;
 }
 
@@ -167,11 +186,16 @@ body {
 
 footer {
     display: flex;
-    align-items:flex-end;
-    justify-content: space-around;
     text-align: center;
     background-color:var(--cor2);   
     font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 740px) {
+    footer {
+        display:block
+    }
 }
 
 .morada {
@@ -183,37 +207,34 @@ footer {
 
 .redes-sociais > a {
     position: relative;
-    display: flexbox;
-    padding: 0px 30px;
+    padding: 0px 15px;
 }
 
 .social{
     width: 30px;
     height: 30px;
-    padding-bottom: 20px;
+    
 }
 
 .img1 {
-    display: block;
     width: 250px;
     height: 200px;
-    margin-left: -270px;
-    margin-bottom: -150px;
     border-radius: 5%;
-
+    margin-right: 20px;
 }
 
 .img2{
-    display: block;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-left: -270px;
-    margin-bottom: -170px;
+    margin-right: 20px;
 
 }
 
-
+.formulario{ 
+    position: absolute;
+    display: block;
+}
 
 .area{
     border: 1px solid gray;
