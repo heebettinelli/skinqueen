@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
 
+
+/*DECLARAÇÕES GERAIS*/
 :root{
     --cor1: #f4f4f4;
     --cor2: #D60751;
@@ -39,9 +41,6 @@ header {
     justify-content: space-around;
     height: 40px;
     font-size: 18px;
-    
-
-    
 }
 
 .menu > a {
@@ -49,8 +48,7 @@ header {
     position: relative;
     color: var(--cor2);
     align-items: right;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 .menu > a:hover {
@@ -80,18 +78,17 @@ body {
 
 .conteudo {
     text-align: justify;
-    max-width: 840px;
-   
+    max-width: 840px; 
 }
 
 .item-content{
     max-width: 950px;
     display: flex;
     margin-bottom: 80px;
-
-
-
 }
+
+/*DECLARAÇÕES DESKTOP (992px a 1200px)*/
+
 @media screen and (max-width: 740px) {
     .item-content{
         display: block;
@@ -103,8 +100,7 @@ body {
 .rigth{
     max-width: 60%;
     display: flex;
-    margin-left: auto;
-    
+    margin-left: auto; 
 }
 
 .left{
@@ -121,8 +117,7 @@ body {
     text-align: center;
     font: var(--font-principal);
     font-size: 40px;
-    padding: 40px 40px;
-    
+    padding: 40px 40px;  
 }
 
 .subtitulo{
@@ -137,13 +132,13 @@ body {
     display: block;
     height: 100px;
     width: 100%;
-
 }
 .cta{
     margin: 40px 0px px 0px;
     text-align: center;
     padding: 20px;
 }
+
 .button {
     background-color: var(--cor2);
     color: white;
@@ -155,8 +150,6 @@ body {
     width: 250px;
 }
 
-
-
 footer {
     display: flex;
     text-align: center;
@@ -164,11 +157,6 @@ footer {
     font-size: 14px;
     justify-content: center;
     align-items: center;
-}
-@media screen and (max-width: 740px) {
-    footer {
-        display:block
-    }
 }
 
 .morada {
@@ -197,4 +185,17 @@ footer {
 }
 
 
+
+/*DECLARACOES TABLET (768px a 992px)*/
+
+
+
+
+/*DECLARAÇÕES SMARTPHONE (375px a 768px)*/
+
+@media screen and (max-width: 740px) {
+    footer {
+        display:block
+    }
+}
 
