@@ -87,8 +87,6 @@ body {
     margin-bottom: 80px;
 }
 
-/*DECLARAÇÕES DESKTOP (992px a 1200px)*/
-
 @media screen and (max-width: 740px) {
     .item-content{
         display: block;
@@ -184,18 +182,38 @@ footer {
     margin-right: 20px;
 }
 
-
-
-/*DECLARACOES TABLET (768px a 992px)*/
-
-
-
-
-/*DECLARAÇÕES SMARTPHONE (375px a 768px)*/
-
 @media screen and (max-width: 740px) {
     footer {
         display:block
     }
 }
 
+/*DECLARAÇÕES DESKTOP (992px a 1200px)
+
+@media screen and (min-width:992px) and  (max-width: 1200px) {
+    footer {
+        display:block
+    }
+}
+
+*/
+
+/*DECLARACOES TABLET (768px a 992px)
+
+@media screen and (min-width:768px) and  (max-width: 992px) {
+    footer {
+        display:block
+    }
+}
+
+*/
+
+/*DECLARAÇÕES SMARTPHONE (375px a 768px)
+
+@media screen and (min-width:375px) and  (max-width: 768px) {
+    footer {
+        display:block
+    }
+}
+
+*/
