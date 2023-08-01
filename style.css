@@ -6,6 +6,7 @@
 
 
 /*DECLARAÇÕES GERAIS*/
+
 :root{
     --cor1: #f4f4f4;
     --cor2: #D60751;
@@ -21,6 +22,7 @@
     padding: auto;
 }
 
+
 header {
     display: flex;
     flex-direction: column;
@@ -29,6 +31,7 @@ header {
     margin: 0px;   
     height: 250px;   
 }
+
 
 .logo {
     width: 200px;
@@ -74,8 +77,6 @@ body {
     align-items: center;
 }
 
-
-
 .conteudo {
     text-align: justify;
     max-width: 840px; 
@@ -86,14 +87,6 @@ body {
     display: flex;
     margin-bottom: 80px;
 }
-
-@media screen and (max-width: 740px) {
-    .item-content{
-        display: block;
-       text-align: center;
-    }
-}
-
 
 .rigth{
     max-width: 60%;
@@ -188,32 +181,12 @@ footer {
     }
 }
 
-/*DECLARAÇÕES DESKTOP (992px a 1200px)
-
-@media screen and (min-width:992px) and  (max-width: 1200px) {
-    footer {
-        display:block
+@media screen and (max-width: 740px) {
+    .item-content{
+        display: block;
+       text-align: center;
     }
 }
 
-*/
+/*DECLARAÇÕES DESKTOP (992px a 1200px)*/
 
-/*DECLARACOES TABLET (768px a 992px)
-
-@media screen and (min-width:768px) and  (max-width: 992px) {
-    footer {
-        display:block
-    }
-}
-
-*/
-
-/*DECLARAÇÕES SMARTPHONE (375px a 768px)
-
-@media screen and (min-width:375px) and  (max-width: 768px) {
-    footer {
-        display:block
-    }
-}
-
-*/
